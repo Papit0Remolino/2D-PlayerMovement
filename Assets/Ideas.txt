@@ -1,0 +1,5 @@
+cuando cambie la gravedad que todo el escenario cambie de gravedad
+en nivemeles mas amplios alejar camara
+animar las piedras del personaje por separado cada una y que den vueltas en espiral
+meter parallax
+nivel estas encerrado en un cuadrado y tienes que ir cambiando la gravedad para que un objeto en escena vaya pulsando botones

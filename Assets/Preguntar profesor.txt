@@ -1,0 +1,1 @@
+como puedo alterar un prefab por código y que afecte a toda la escena
