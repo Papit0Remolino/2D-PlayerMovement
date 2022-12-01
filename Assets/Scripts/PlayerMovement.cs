@@ -59,6 +59,11 @@ public class PlayerMovement : MonoBehaviour
     public bool isReversed;
     //CAMARA
     [SerializeField] CinemachineVirtualCamera cam;
+    [SerializeField] Animator camAnimator;
+    //UI
+    [SerializeField] Animator uiAnimator;
+    //CHECKPOINTS
+    GameObject lastCheckpoint;
     private void Awake()
     {
         friction = GetComponent<Rigidbody2D>().sharedMaterial;
@@ -519,17 +524,42 @@ public class PlayerMovement : MonoBehaviour
             //el número es la inttensidad del color (material.color.HDRintensity(URP))
             
         }
+        if (collision.gameObject.layer == 7)
+        {
+            //si te pinchas o te caes te mueres (colisionas con la layer spikes(8));
+            StartCoroutine(death());
+        }
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.name == "CameraSizeChangerBig")
         {
-            cam.m_Lens.OrthographicSize = 30;
+            //cam.m_Lens.OrthographicSize = 30;
+            camAnimator.SetBool("Shrink", false);
+            camAnimator.SetBool("Grow", true);
         }
         if (collision.name == "CameraSizeChangerSmall")
         {
-            cam.m_Lens.OrthographicSize = 15;
+            //cam.m_Lens.OrthographicSize = 15;
+            camAnimator.SetBool("Grow", false);
+            camAnimator.SetBool("Shrink", true);
         }
+        if (collision.gameObject.layer == 8)
+        {
+            lastCheckpoint = collision.gameObject;
+        }
+    }
+
+    IEnumerator death()
+    {
+        //animacion del personaje de morirse
+        GetComponent<Animator>().SetTrigger("DeathAnimation");
+        Debug.Log("nos morimo");
+        //transicion de pantalla al morirse
+        uiAnimator.SetTrigger("DeathAnimation");
+        //esperas medio segundo mientras se ejecuta la animacion de muerte y te tepea al ultimo checkpoint
+        yield return new WaitForSeconds(0.50f);
+        transform.position = new Vector2(lastCheckpoint.transform.position.x, lastCheckpoint.transform.position.y);
     }
 
 }
