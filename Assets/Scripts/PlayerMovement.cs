@@ -96,6 +96,7 @@ public class PlayerMovement : MonoBehaviour
         Debug.Log(isReversed);
         if (canDash && CooldownRanOut && Input.GetKeyDown(KeyCode.E))
         {
+            //if color == x
             StartCoroutine(Dash());
         }
         if (GetComponent<Rigidbody2D>().gravityScale > 0)
@@ -103,6 +104,7 @@ public class PlayerMovement : MonoBehaviour
             jump();
             Fall();
             LimitFallSpeed();
+            //if color == x
             WallJump();
 
         }
@@ -111,11 +113,15 @@ public class PlayerMovement : MonoBehaviour
             jumpWhenReversed();
             FallWhenReversed();
             LimitFallSpeedReversed();
+            //if color == x
             WallJumpWhenReversed();
         }
-        Rotation();
         CheckIfGrounded();
+        //if color == x
+        Rotation();
+        //if color == x
         HoldOnCeeling();
+        //if color == x
         reverseGravity();
 
     }
