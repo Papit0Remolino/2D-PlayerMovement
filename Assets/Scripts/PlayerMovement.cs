@@ -552,6 +552,9 @@ public class PlayerMovement : MonoBehaviour
 
     IEnumerator death()
     {
+        //ARREGLAR BUG
+        //si alguien colisiona dos veces en los 0,5 segundos antes de tepearte se ejecuta dos veces la animacíon de la UI
+
         //animacion del personaje de morirse
         GetComponent<Animator>().SetTrigger("DeathAnimation");
         Debug.Log("nos morimo");
