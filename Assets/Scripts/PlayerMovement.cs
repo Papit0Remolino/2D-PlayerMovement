@@ -143,7 +143,9 @@ public class PlayerMovement : MonoBehaviour
     void Movement()
     {
         moveInput = Input.GetAxisRaw("Horizontal");
+
         Vector3 targetSpeed = new Vector2(moveInput * moveSpeed, GetComponent<Rigidbody2D>().velocity.y);
+    
         //float targetSpeed = moveInput * moveSpeed;
         //lo de abajo es movimiento mas complejo pero va un poco a trompicones, menos fluido
         //float speedDif = targetSpeed - GetComponent<Rigidbody2D>().velocity.x;
@@ -161,7 +163,17 @@ public class PlayerMovement : MonoBehaviour
             Flip();
         }
 
-        GetComponent<Rigidbody2D>().velocity = Vector3.SmoothDamp(GetComponent<Rigidbody2D>().velocity, targetSpeed, ref referenceVector, movementSmoothing);
+        //según si invert x esta activado o no, multiplicamos la dirección por -1 para invertirla
+
+        if (UI.UIsingleton.invertXisActivated)
+        {
+            GetComponent<Rigidbody2D>().velocity = Vector3.SmoothDamp(GetComponent<Rigidbody2D>().velocity, targetSpeed * -1, ref referenceVector, movementSmoothing);
+        }
+        else
+        {
+            GetComponent<Rigidbody2D>().velocity = Vector3.SmoothDamp(GetComponent<Rigidbody2D>().velocity, targetSpeed, ref referenceVector, movementSmoothing);
+        }
+
 
 
     }
@@ -229,7 +241,6 @@ public class PlayerMovement : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Space) && !isGrounded && !isWallHolding && canDoubleJump && isDashing)
         {
-            Debug.Log("salatar en dash");
             jumpAfterDashing = true;
         }
             

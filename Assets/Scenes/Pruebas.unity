@@ -18019,6 +18019,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f050f0bef2a4934895f2b9e9ebaeedd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  globalLight: {fileID: 769447314}
 --- !u!114 &1226208395
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18033,7 +18034,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   loginScreen: {fileID: 0}
   settingsScreen: {fileID: 0}
-  brightness: {fileID: 0}
+  brightnessSlider: {fileID: 0}
+  UIbrightnessValue: 0
 --- !u!4 &1226208396
 Transform:
   m_ObjectHideFlags: 0

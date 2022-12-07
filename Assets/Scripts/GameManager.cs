@@ -1,20 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 
 public class GameManager : MonoBehaviour
 {
-    [SerializeField] Light globalLight;
-    float baseGameBrightness = 0.4f;
-    // Start is called before the first frame update
-    void Start()
+    //actualizar brillo
+    [SerializeField] Light2D globalLight;
+    float baseGameBrightness = 0.3f;
+
+    void FixedUpdate()
     {
-        
+        updateBrightness();
     }
 
-    // Update is called once per frame
-    void Update()
+    void updateBrightness()
     {
-        //globalLight = baseGameBrightness + UI.Brightness();
+        //cambiar a que se ejecute esta linea solo caundo el menú este abierto, para mejorar el rendimiento
+        globalLight.intensity = baseGameBrightness + UI.UIsingleton.UIbrightnessValue;
     }
 }
