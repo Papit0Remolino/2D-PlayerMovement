@@ -1,0 +1,328 @@
+fileFormatVersion: 2
+guid: 1028a90ca92b047439bfdbb5f9606adf
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 13
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pruebas_1
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 82
+        width: 25
+        height: 25
+      alignment: 9
+      pivot: {x: 0.26662537, y: 0.2026355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea00a89232e4abd479274a368724245e
+      internalID: -440849322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pruebas_4
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 82
+        width: 25
+        height: 25
+      alignment: 9
+      pivot: {x: 0.25909728, y: 0.2026355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a554bb7173a4c2446969cccaea2dd7e2
+      internalID: 584762661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pruebas_7
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 81
+        width: 25
+        height: 25
+      alignment: 9
+      pivot: {x: 0.33437988, y: 0.19510742}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd318e87b89f26047b0012bf4b67352b
+      internalID: 1180542243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pruebas_10
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 80
+        width: 26
+        height: 25
+      alignment: 9
+      pivot: {x: 0.48552293, y: 0.19134308}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f72d6463b6157df49b50c55521af31f4
+      internalID: 802331295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pruebas_13
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 81
+        width: 25
+        height: 25
+      alignment: 9
+      pivot: {x: 0.3733301, y: 0.18634063}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 558341d59bf87b7478694176b2155fa6
+      internalID: -891139800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pruebas_16
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 12
+        width: 25
+        height: 25
+      alignment: 9
+      pivot: {x: 0.26245514, y: 0.19724701}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3235ee2a8a2c4ae4a8839d4c276bf4f6
+      internalID: -643957017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pruebas_19
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 16
+        width: 25
+        height: 25
+      alignment: 9
+      pivot: {x: 0.26895753, y: 0.19856086}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ba793bb3e10524fbf5d8f0fa4959fb
+      internalID: 822724293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pruebas_22
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 17
+        width: 25
+        height: 25
+      alignment: 9
+      pivot: {x: 0.2623108, y: 0.20169212}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c366f804030a14b8b76c5a0ba6e43d
+      internalID: 436920921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      pruebas_19: 822724293
+      pruebas_4: 584762661
+      pruebas_17: -1565635869
+      pruebas_23: 38162293
+      pruebas_1: -440849322
+      pruebas_3: -2038284343
+      pruebas_21: 347174742
+      pruebas_8: 1002596792
+      pruebas_9: -1743955506
+      pruebas_22: 436920921
+      pruebas_20: -164492380
+      pruebas_2: 403734108
+      pruebas_6: -1177066085
+      pruebas_5: -529683359
+      pruebas_10: 802331295
+      pruebas_12: 1582144834
+      pruebas_14: 1717538361
+      pruebas_7: 1180542243
+      pruebas_11: 2078634342
+      pruebas_18: -1930079944
+      pruebas_13: -891139800
+      pruebas_15: 1166634668
+      pruebas_0: 1270438781
+      pruebas_16: -643957017
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -9,6 +9,8 @@ public class UI : MonoBehaviour
 {
     //singleton
     public static UI UIsingleton;
+    //referencias a eol iterador de movimiento de la camara para cambiar entre pantallas
+    [SerializeField] GameObject ScreenIterator;
     //referencias a ventanas
     [SerializeField] GameObject loginScreen;
     [SerializeField] GameObject settingsScreen;
@@ -21,12 +23,12 @@ public class UI : MonoBehaviour
     [SerializeField] Scrollbar musicVolume;
     [SerializeField] Scrollbar efectsVolume;
     [SerializeField] Toggle invertX;
+    //parametros adicionales
     public float UIbrightnessValue;
     int LastScenePlayed = 1; // aqui se guardará la ultima escena en la que estuvimos antes de desconectarnos.
-    //parametros adicionales
     float sizeIterator = 1; //guarda el cambio de escala de la UI. Se usa en ChangeUISize();
     public bool invertXisActivated { get; private set; }
-    //VOLVER ATRAS CON EL ESCAPE
+    
     private void Start()
     {
         if (UIsingleton == null)
@@ -36,6 +38,7 @@ public class UI : MonoBehaviour
         //SETTINGS STARTING VALUES
         brightnessSlider.GetComponent<Scrollbar>().value = 0.5f;
     }
+    //VOLVER ATRAS CON EL ESCAPE
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -43,24 +46,77 @@ public class UI : MonoBehaviour
             GoToLoginScreen();
         }
         //actualizamos el brillo(que luego le pasamos a game manager para que lo meta ingame) segun el valor que le demos en el menú de opciones;
+        //quitar de aqui y meterlo en el onvaluechange del slider
         UIbrightnessValue = brightnessSlider.GetComponent<Scrollbar>().value;
-
+        
+        //activar la ui segun la poscion del iterador
+        switch (ScreenIterator.transform.position.x)
+        {
+            case 18.75f:
+                StartCoroutine(ActivateSettingsScreen());
+                break;
+            case 0:
+                StartCoroutine(ActivateLoginScreen());
+                break;
+            case -18.75f:
+                StartCoroutine(ActivateNewGameScreen());
+                break;
+            default:
+                loginScreen.SetActive(false);
+                settingsScreen.SetActive(false);
+                break;
+        }
     }
 
     //MOVIMIENTO ENTRE ESCENAS
+
+    //volver a la pantalla principal
     public void GoToLoginScreen()
     {
-        loginScreen.SetActive(true);
-        settingsScreen.SetActive(false);
+        //ScreenIterator.GetComponent<Animator>().SetTrigger("GoBack");
+        ScreenIterator.GetComponent<Animator>().SetInteger("Screen", 0);
+
     }
+    IEnumerator ActivateLoginScreen()
+    {
+        yield return new WaitForSeconds(0.3f);
+        loginScreen.SetActive(true);
+    }
+
+    //ir a la pantalla ajustes
     public void GoToSettingsScreen()
     {
-        loginScreen.SetActive(false);
+        //ScreenIterator.GetComponent<Animator>().SetTrigger("GoRight");
+        ScreenIterator.GetComponent<Animator>().SetInteger("Screen",1);
+    }
+    IEnumerator ActivateSettingsScreen()
+    {
+        yield return new WaitForSeconds(0.3f);
         settingsScreen.SetActive(true);
     }
+
+    //ir a la pantalla nueva partida
+    public void GoToNewGame()
+    {
+        //ScreenIterator.GetComponent<Animator>().SetTrigger("GoLeft");
+        ScreenIterator.GetComponent<Animator>().SetInteger("Screen", -1);
+
+    }
+    IEnumerator ActivateNewGameScreen()
+    {
+        yield return new WaitForSeconds(0.3f);
+        //newGameScreen.SetActive(true);
+    }
+
+
     public void GoToGame()
     {
         SceneManager.LoadScene(LastScenePlayed);
+    }
+
+    public void Exit()
+    {
+        Application.Quit();
     }
 
     // SETTINGS

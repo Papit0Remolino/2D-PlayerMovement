@@ -1,0 +1,664 @@
+fileFormatVersion: 2
+guid: e4c46a3ea4659b649a608fd6c2140ba2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 13
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pruebas 2_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 72
+        width: 51
+        height: 59
+      alignment: 9
+      pivot: {x: 0.52536774, y: 0.12174574}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6a9c16429b5654990d27f9ffce64e8
+      internalID: -2021711365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pruebas 2_1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 80
+        width: 18
+        height: 20
+      alignment: 9
+      pivot: {x: 0.35160658, y: 0.22075081}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2a061fb4c5d41478e5837cbba3b02d
+      internalID: 1681889157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pruebas 2_2
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 80
+        width: 19
+        height: 24
+      alignment: 9
+      pivot: {x: 0.3048152, y: 0.10175005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71f62dd71a86ec7419f9c394ce2db023
+      internalID: 1675697563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pruebas 2_3
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 70
+        width: 51
+        height: 61
+      alignment: 9
+      pivot: {x: 0.5264701, y: 0.11745403}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a29fa82490c7c540bac86557432af5c
+      internalID: 1829457911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pruebas 2_5
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 78
+        width: 20
+        height: 25
+      alignment: 9
+      pivot: {x: 0.29750443, y: 0.09886414}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 663c37b3dbd805442ba9c4422ba06eb1
+      internalID: 87098035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pruebas 2_6
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 69
+        width: 53
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5418459, y: 0.11429257}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d10ece63e465949906e0deaf070aec
+      internalID: -1309398012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pruebas 2_8
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 77
+        width: 19
+        height: 24
+      alignment: 9
+      pivot: {x: 0.3172977, y: 0.09420363}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5458d1e0bc7627f4cb132b92c1bbc497
+      internalID: 652236282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pruebas 2_10
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 81
+        width: 26
+        height: 23
+      alignment: 9
+      pivot: {x: 0.48496538, y: 0.19406725}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa3714a0dc351143949450e93aeefa6
+      internalID: 1767993579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pruebas 2_12
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 71
+        width: 52
+        height: 57
+      alignment: 9
+      pivot: {x: 0.5327747, y: 0.12560487}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c4a8df0d8dd664c95159802cc3f1e0
+      internalID: 53583790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pruebas 2_14
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 79
+        width: 19
+        height: 22
+      alignment: 9
+      pivot: {x: 0.30890214, y: 0.109295934}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5cf9f2a077c894f9c275ec3efd807f
+      internalID: -2098892500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pruebas 2_16
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 13
+        width: 20
+        height: 22
+      alignment: 9
+      pivot: {x: 0.31715927, y: 0.20292793}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b004bfa34c01b854e9b26bc915b30adf
+      internalID: -1257405748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pruebas 2_17
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 13
+        width: 19
+        height: 21
+      alignment: 9
+      pivot: {x: 0.31572562, y: 0.12209238}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e00703f15a48446a2acabde32eb4a8
+      internalID: 1719245945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pruebas 2_19
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 13
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.32493973, y: 0.21990375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a160d42acb4f84aa7956746e9c2ebc
+      internalID: -399312219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pruebas 2_20
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 13
+        width: 19
+        height: 19
+      alignment: 9
+      pivot: {x: 0.31572524, y: 0.13964202}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f16244bc94a95e4985952b30a389e79
+      internalID: 760288544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pruebas 2_22
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 15
+        width: 19
+        height: 20
+      alignment: 9
+      pivot: {x: 0.34029508, y: 0.21990375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff702254f6e5acc4fbf463dee08cf4eb
+      internalID: 2109205305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pruebas 2_23
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 15
+        width: 23
+        height: 22
+      alignment: 9
+      pivot: {x: 0.435726, y: 0.11097717}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aec9368ad800a541b94e9aa590c27de
+      internalID: -21001369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pruebas 2_4
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 78
+        width: 19
+        height: 18
+      alignment: 9
+      pivot: {x: 0.3375975, y: 0.24286185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc257d47d258410498e0f367ec1da877
+      internalID: -1829155426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pruebas 2_7
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 77
+        width: 22
+        height: 22
+      alignment: 9
+      pivot: {x: 0.38165838, y: 0.19318701}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cd136a98e72653409646162dcda7655
+      internalID: -757315379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pruebas 2_9
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 73
+        width: 52
+        height: 59
+      alignment: 9
+      pivot: {x: 0.53157395, y: 0.12101241}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e093eadd830274aad2414dd2dbca01
+      internalID: 2039269029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pruebas 2_11
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 81
+        width: 19
+        height: 22
+      alignment: 9
+      pivot: {x: 0.30660048, y: 0.109086126}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bbb28c9fdc00e740841262ac7fed952
+      internalID: -2142139079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pruebas 2_13
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 79
+        width: 25
+        height: 23
+      alignment: 9
+      pivot: {x: 0.38144287, y: 0.18749535}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afbc9b1959ef03c43b4f125dc841b875
+      internalID: -56185563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pruebas 2_15
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 5
+        width: 52
+        height: 64
+      alignment: 9
+      pivot: {x: 0.53142124, y: 0.11340855}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f739eda3a5ecba6448dfb557a43e423f
+      internalID: 464014273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pruebas 2_18
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 5
+        width: 54
+        height: 60
+      alignment: 9
+      pivot: {x: 0.49567753, y: 0.12005434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732df66a300f2db4da52856c852afb94
+      internalID: -942524877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pruebas 2_21
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 7
+        width: 62
+        height: 59
+      alignment: 9
+      pivot: {x: 0.61043227, y: 0.12680179}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f024047be065441bde99c09527b535
+      internalID: -1039070600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      pruebas 2_3: 1829457911
+      pruebas 2_17: 1719245945
+      pruebas 2_22: 2109205305
+      pruebas 2_4: -1829155426
+      pruebas 2_16: -1257405748
+      pruebas 2_1: 1681889157
+      pruebas 2_8: 652236282
+      pruebas 2_20: 760288544
+      pruebas 2_5: 87098035
+      pruebas 2_7: -757315379
+      pruebas 2_21: -1039070600
+      pruebas 2_15: 464014273
+      pruebas 2_18: -942524877
+      pruebas 2_9: 2039269029
+      pruebas 2_19: -399312219
+      pruebas 2_6: -1309398012
+      pruebas 2_0: -2021711365
+      pruebas 2_10: 1767993579
+      pruebas 2_2: 1675697563
+      pruebas 2_11: -2142139079
+      pruebas 2_13: -56185563
+      pruebas 2_14: -2098892500
+      pruebas 2_23: -21001369
+      pruebas 2_12: 53583790
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
