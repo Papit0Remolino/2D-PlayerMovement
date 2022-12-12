@@ -34,6 +34,11 @@ public class UI : MonoBehaviour
         if (UIsingleton == null)
         {
             UIsingleton = this;
+            DontDestroyOnLoad(this.gameObject);
+        }
+        else
+        {
+            Destroy(this.gameObject);
         }
         //SETTINGS STARTING VALUES
         brightnessSlider.GetComponent<Scrollbar>().value = 0.5f;
@@ -142,15 +147,10 @@ public class UI : MonoBehaviour
     }
 
 
-    //PREGUNTAR COMO VA ESTO EN CLASE
-    //public void FullScreen()
-    //{
-    //    Screen.fullScreen = !Screen.fullScreen;
-    //}
-    //public void FUllScreenWindow()
-    //{
-    //    Screen.fullScreen = Screen.fullScreenMode.Windowed;
-    //}
+    public void FullScreen()
+    {
+        Screen.fullScreen = !Screen.fullScreen;
+    }
 
     //PREGUNTAR EL DONT DESTROY ON LOAD como hacer que guarde estos valores
 
