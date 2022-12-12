@@ -100,6 +100,7 @@ public class UI : MonoBehaviour
     {
         //ScreenIterator.GetComponent<Animator>().SetTrigger("GoLeft");
         ScreenIterator.GetComponent<Animator>().SetInteger("Screen", -1);
+        //activar cinematica
 
     }
     IEnumerator ActivateNewGameScreen()
